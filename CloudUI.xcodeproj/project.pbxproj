@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C561F7391E972A9200B1A6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C561F7381E972A9200B1A6F7 /* AppDelegate.swift */; };
+		C561F73B1E972A9200B1A6F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C561F73A1E972A9200B1A6F7 /* ViewController.swift */; };
+		C561F73D1E972A9200B1A6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C561F73C1E972A9200B1A6F7 /* Assets.xcassets */; };
+		C561F7401E972A9200B1A6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C561F73E1E972A9200B1A6F7 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C561F7351E972A9200B1A6F7 /* CloudUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C561F7381E972A9200B1A6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C561F73A1E972A9200B1A6F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C561F73C1E972A9200B1A6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C561F73F1E972A9200B1A6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C561F7411E972A9200B1A6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C561F7321E972A9200B1A6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C561F72C1E972A9200B1A6F7 = {
+			isa = PBXGroup;
+			children = (
+				C561F7371E972A9200B1A6F7 /* CloudUI */,
+				C561F7361E972A9200B1A6F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C561F7361E972A9200B1A6F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C561F7351E972A9200B1A6F7 /* CloudUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C561F7371E972A9200B1A6F7 /* CloudUI */ = {
+			isa = PBXGroup;
+			children = (
+				C561F7381E972A9200B1A6F7 /* AppDelegate.swift */,
+				C561F73A1E972A9200B1A6F7 /* ViewController.swift */,
+				C561F73C1E972A9200B1A6F7 /* Assets.xcassets */,
+				C561F73E1E972A9200B1A6F7 /* Main.storyboard */,
+				C561F7411E972A9200B1A6F7 /* Info.plist */,
+			);
+			path = CloudUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C561F7341E972A9200B1A6F7 /* CloudUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C561F7441E972A9200B1A6F7 /* Build configuration list for PBXNativeTarget "CloudUI" */;
+			buildPhases = (
+				C561F7311E972A9200B1A6F7 /* Sources */,
+				C561F7321E972A9200B1A6F7 /* Frameworks */,
+				C561F7331E972A9200B1A6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudUI;
+			productName = CloudUI;
+			productReference = C561F7351E972A9200B1A6F7 /* CloudUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C561F72D1E972A9200B1A6F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.homebrew.zhaorui;
+				TargetAttributes = {
+					C561F7341E972A9200B1A6F7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7HN3FL9R65;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C561F7301E972A9200B1A6F7 /* Build configuration list for PBXProject "CloudUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C561F72C1E972A9200B1A6F7;
+			productRefGroup = C561F7361E972A9200B1A6F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C561F7341E972A9200B1A6F7 /* CloudUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C561F7331E972A9200B1A6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C561F73D1E972A9200B1A6F7 /* Assets.xcassets in Resources */,
+				C561F7401E972A9200B1A6F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C561F7311E972A9200B1A6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C561F73B1E972A9200B1A6F7 /* ViewController.swift in Sources */,
+				C561F7391E972A9200B1A6F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C561F73E1E972A9200B1A6F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C561F73F1E972A9200B1A6F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C561F7421E972A9200B1A6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C561F7431E972A9200B1A6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C561F7451E972A9200B1A6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7HN3FL9R65;
+				INFOPLIST_FILE = CloudUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaorui.CloudUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C561F7461E972A9200B1A6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7HN3FL9R65;
+				INFOPLIST_FILE = CloudUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhaorui.CloudUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C561F7301E972A9200B1A6F7 /* Build configuration list for PBXProject "CloudUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C561F7421E972A9200B1A6F7 /* Debug */,
+				C561F7431E972A9200B1A6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C561F7441E972A9200B1A6F7 /* Build configuration list for PBXNativeTarget "CloudUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C561F7451E972A9200B1A6F7 /* Debug */,
+				C561F7461E972A9200B1A6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C561F72D1E972A9200B1A6F7 /* Project object */;
+}
