@@ -11,6 +11,8 @@
 		C561F73B1E972A9200B1A6F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C561F73A1E972A9200B1A6F7 /* ViewController.swift */; };
 		C561F73D1E972A9200B1A6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C561F73C1E972A9200B1A6F7 /* Assets.xcassets */; };
 		C561F7401E972A9200B1A6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C561F73E1E972A9200B1A6F7 /* Main.storyboard */; };
+		C561F7491E973B6D00B1A6F7 /* CustomWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C561F7471E973B6D00B1A6F7 /* CustomWindowController.swift */; };
+		C561F74A1E973B6D00B1A6F7 /* CustomWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C561F7481E973B6D00B1A6F7 /* CustomWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C561F73C1E972A9200B1A6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C561F73F1E972A9200B1A6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C561F7411E972A9200B1A6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C561F7471E973B6D00B1A6F7 /* CustomWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWindowController.swift; sourceTree = "<group>"; };
+		C561F7481E973B6D00B1A6F7 /* CustomWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				C561F73A1E972A9200B1A6F7 /* ViewController.swift */,
 				C561F73C1E972A9200B1A6F7 /* Assets.xcassets */,
 				C561F73E1E972A9200B1A6F7 /* Main.storyboard */,
+				C561F7471E973B6D00B1A6F7 /* CustomWindowController.swift */,
+				C561F7481E973B6D00B1A6F7 /* CustomWindowController.xib */,
 				C561F7411E972A9200B1A6F7 /* Info.plist */,
 			);
 			path = CloudUI;
@@ -122,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C561F73D1E972A9200B1A6F7 /* Assets.xcassets in Resources */,
+				C561F74A1E973B6D00B1A6F7 /* CustomWindowController.xib in Resources */,
 				C561F7401E972A9200B1A6F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			files = (
 				C561F73B1E972A9200B1A6F7 /* ViewController.swift in Sources */,
 				C561F7391E972A9200B1A6F7 /* AppDelegate.swift in Sources */,
+				C561F7491E973B6D00B1A6F7 /* CustomWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

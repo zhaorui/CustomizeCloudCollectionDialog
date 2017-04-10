@@ -9,11 +9,12 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    
+    var customize_cloud_btn_wc : CustomWindowController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
     override var representedObject: Any? {
@@ -22,6 +23,14 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBAction func showCustomButtonWindow(_ sender: NSButton) {
+        customize_cloud_btn_wc = CustomWindowController(windowNibName: "CustomWindowController")
+        customize_cloud_btn_wc?.showWindow(self)
+        self.view.window?.addChildWindow((customize_cloud_btn_wc?.window)!, ordered: .above)
+    }
 
 }
+
+
+
 
